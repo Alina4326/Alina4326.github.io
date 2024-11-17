@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #020101;
+}
+
+header{
+    background-color: rgba(50, 50, 50, 0.7);
+    padding: 20px 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:130px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 86px;
+}
+.bio__header{
+    color: white;
+    font-size:  86px;
+    font-weight: bold;
+    display: flex;
+}
+
+.info{
+    padding-left: 86px;
+}
+
+.info__header{
+    color: white;
+    font-size:64px;
+    font-weight: bold;
+    display: flex;
+}
+.info__text{
+    color: white;
+    background: rgb(0, 0, 0);
+    font-weight: semibod;
+    font-size:20px;
+    text-align: justify;
+
+}
+.left__info{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    
+}
+.info__h{
+    font-size:40px;
+}
+.infoo{
+    padding-left: 86px;
+}
+
+
+.infoo__text{
+    color: white;
+    background: rgb(0, 0, 0);
+    font-weight: semibod;
+    font-size:20px;
+    text-align: justify;
+
+}
+.left__infoo{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+    
+}
+.infoo__h{
+    font-size:40px;
+}
+
+.simptom{
+    padding-left: 86px;
+}
+
+
+.infoo__text{
+    color: white;
+    background: rgb(0, 0, 0);
+    font-weight: semibod;
+    font-size:20px;
+    text-align: justify;
+
+}
+.left__simptom{
+display: flex;
+ justify-content: space-around;
+ align-items:center;
+width: 100%;
+gap: 40px;
+color:white;
+}
+.simptom__h{
+    font-size:40px;
+}
